@@ -4,7 +4,7 @@ layout: default
 
   Este projeto foi criado para documentar experiências hands-on. Com base nos conhecimentos adquiridos durante os estudos para as certificações CompTIA A+ e CompTIA Security+, desenvolvi um Home Lab para este projeto, que será detalhado ao longo desta página. Outros projetos estão em planejamento e serão adicionados futuramente.
 
->  Como se trata de um Home Lab, a segurança não foi a prioridade neste projeto, e nenhuma das informações utilizadas são reais. Em um ambiente de produção, o ideal seria evitar a exposição direta do AD à internet, >implementando um firewall e outras camadas de segurança para proteção da infraestrutura.
+>  Como se trata de um Home Lab, a segurança não foi a prioridade neste projeto, e nenhuma das informações utilizadas são reais. Em um ambiente de produção, o ideal seria evitar a exposição direta do AD à internet,  implementando um firewall e outras camadas de segurança para proteção da infraestrutura.
 
 Podes também me acompanhar no [LinkedIn!](https://www.linkedin.com/in/julio-nunes-b97331205/).
 
@@ -25,22 +25,10 @@ Os dispositivos cliente (CLIENTs) foram representados por VMs configuradas com W
 
 ![Branching](VMs.PNG)
 
-### Header 3
+### Instalando AD, DNS, DHCP e Routing
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+
 
 #### Header 4
 
