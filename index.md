@@ -74,4 +74,10 @@ Conforme descrito anteriormente, os dispositivos clientes utilizam o gateway 172
 
 ![Branching](userscreated.PNG)
 
+## Testando funcionamento e conexão com o ambiente AD!
 
+Nesta etapa, foi realizada a validação da conectividade com a internet a partir do CLIENT1, utilizando o Command Prompt para executar testes de comunicação. O CLIENT1, configurado para se conectar exclusivamente ao servidor Active Directory (AD), encaminha suas solicitações de rede para o AD, que, por sua vez, redireciona o tráfego para um servidor externo, como os do Google.
+
+Além de verificar a comunicação com a internet, essa configuração também permite o gerenciamento dinâmico dos endereços IP atribuídos aos dispositivos na rede. O serviço DHCP, previamente configurado, assegura que cada cliente receba um IP apropriado, possibilitando o controle e a administração eficiente da distribuição de endereços dentro do ambiente virtualizado.
+
+![Branching](Benchmarking.PNG)
