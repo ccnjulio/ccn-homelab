@@ -8,7 +8,7 @@ layout: default
 
 Podes também me acompanhar no [LinkedIn!](https://www.linkedin.com/in/julio-nunes-b97331205/).
 
-# Infraestrutura
+## Infraestrutura
 
 Este projeto apresenta uma infraestrutura simples, simulando um ambiente Active Directory (AD) em uma organização. Nele, os hosts se conectam a um servidor centralizado, que, por sua vez, gerencia o acesso à internet.
 
@@ -25,7 +25,7 @@ Os dispositivos cliente (CLIENTs) foram representados por VMs configuradas com W
 
 ![Branching](VMs.PNG)
 
-### Instalando AD, DNS, DHCP e Routing
+## Instalando AD, DNS, DHCP e Routing
 
 - Ferramentas instaladas no servidor:
   - Active Directory (AD)
@@ -38,13 +38,13 @@ Os dispositivos cliente (CLIENTs) foram representados por VMs configuradas com W
   - Conclua a instalação e reinicie o sistema quando solicitado
 
 
-#### Configurando DNS
+## Configurando DNS
 
 Para a configuração do DNS, foi utilizado o IP de loopback como referência, permitindo que o próprio domínio atuasse como servidor DNS para os hosts conectados. Essa abordagem garante que as solicitações de resolução de nomes dentro da rede interna sejam direcionadas corretamente, sem depender de servidores externos. Dessa forma, os dispositivos clientes podem localizar e se comunicar com recursos dentro do ambiente virtualizado de maneira eficiente.
 
 ![Branching](dns config.PNG)
 
-##### Header 5
+## Header 5
 
 1.  This is an ordered list following a header.
 2.  This is an ordered list following a header.
