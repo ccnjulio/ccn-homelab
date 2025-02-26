@@ -27,15 +27,15 @@ Os dispositivos cliente (CLIENTs) foram representados por VMs configuradas com W
 
 ### Instalando AD, DNS, DHCP e Routing
 
-- A partir do contato com o servidor, foram instalados as seguintes ferramentas:
-  - AD
-  - DNS
-  - DHCP
+- Ferramentas instaladas no servidor:
+  - Active Directory (AD)
+  - Domain Name System (DNS)
+  - Dynamic Host Configuration Protocol (DHCP)
   - Routing
-- O passo a passo é simples
-  - Add roles and features
-  - Select server roles
-  - E espere para reiniciar o PC conforme for solicitado.
+- Passo a passo:
+  - Acesse Add roles and features
+  - Selecione os Server Roles desejados
+  - Conclua a instalação e reinicie o sistema quando solicitado
 
 
 #### Configurando DNS
