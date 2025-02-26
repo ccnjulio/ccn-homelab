@@ -29,7 +29,7 @@ Os dispositivos cliente (CLIENTs) foram representados por VMs configuradas com W
   - Active Directory (AD)
   - Domain Name System (DNS)
   - Dynamic Host Configuration Protocol (DHCP)
-  - Routing
+  - Routing and Remote Access (RRAS)
 - Passo a passo:
   - Acesse Add roles and features
   - Selecione os Server Roles desejados
@@ -56,7 +56,7 @@ Para a configuração do serviço DHCP (Dynamic Host Configuration Protocol), fo
 
 ![Branching](dhcp config.PNG)
 
-## Configurando Routing
+## Configurando Routing and Remote Access
 
 A instalação e configuração do serviço Routing and Remote Access (RRAS) foram realizadas para permitir que os hosts da rede interna tenham acesso à internet. Esse serviço atua como um roteador, encaminhando o tráfego entre diferentes interfaces de rede dentro do ambiente virtualizado.
 
