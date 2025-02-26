@@ -15,7 +15,7 @@ Este projeto apresenta uma infraestrutura simples, simulando um ambiente Active 
 O objetivo principal foi configurar os clientes para receberem automaticamente os parâmetros de rede via DHCP, enquanto o AD atua simultaneamente como servidor DNS.
 
 
-![Branching]()
+![Branching](Infraestrutura.png)
 
 ## Header 2
 
