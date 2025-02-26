@@ -8,11 +8,11 @@ Podes também me acompanhar no [LinkedIn!](https://www.linkedin.com/in/julio-nun
 
 # Infraestrutura
 
-O projeto tem um infraestrutura simples, que simula um ambiente AD em uma organização, onde hosts se conectam em um servidor centralizado e partir disto, conectam-se a internet.
-A ideia era fazer com os CLIENTs automaticamente recebessem configurações de rede através do DHCP, ao mesmo tempo que o AD agisse como um servidor DNS.
+Este projeto apresenta uma infraestrutura simples, simulando um ambiente Active Directory (AD) em uma organização. Nele, os hosts se conectam a um servidor centralizado, que, por sua vez, gerencia o acesso à internet.
 
-A segurança não é uma prioridade para este projeto, pois se trata de um Home Lab, e nenhuma das informações utilizadas são reais.
-(O ideal seria não deixar o AD exposto à internet, mas sim, dedicar um firewall e outras ferramentas de segurança)
+O objetivo principal foi configurar os clientes para receberem automaticamente os parâmetros de rede via DHCP, enquanto o AD atua simultaneamente como servidor DNS.
+
+Como se trata de um Home Lab, a segurança não foi a prioridade neste projeto, e nenhuma das informações utilizadas são reais. Em um ambiente de produção, o ideal seria evitar a exposição direta do AD à internet, implementando um firewall e outras camadas de segurança para proteção da infraestrutura.
 
 ![Branching](Infraestrutura.png)
 
