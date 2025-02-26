@@ -4,7 +4,7 @@ layout: default
 
   Este projeto foi criado para documentar experiências hands-on. Com base nos conhecimentos adquiridos durante os estudos para as certificações CompTIA A+ e CompTIA Security+, desenvolvi um Home Lab para este projeto, que será detalhado ao longo desta página. Outros projetos estão em planejamento e serão adicionados futuramente.
 
-  Como se trata de um Home Lab, a segurança não foi a prioridade neste projeto, e nenhuma das informações utilizadas são reais. Em um ambiente de produção, o ideal seria evitar a exposição direta do AD à internet, implementando um firewall e outras camadas de segurança para proteção da infraestrutura.
+>  Como se trata de um Home Lab, a segurança não foi a prioridade neste projeto, e nenhuma das informações utilizadas são reais. Em um ambiente de produção, o ideal seria evitar a exposição direta do AD à internet, >implementando um firewall e outras camadas de segurança para proteção da infraestrutura.
 
 Podes também me acompanhar no [LinkedIn!](https://www.linkedin.com/in/julio-nunes-b97331205/).
 
@@ -17,11 +17,10 @@ O objetivo principal foi configurar os clientes para receberem automaticamente o
 
 ![Branching](Infraestrutura.png)
 
-## Header 2
+## Virtual Machines (VMs)
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+Para estabelecer um servidor Active Directory (AD), foi instalado Windows Server 2019 em uma das VMs, e configurado duas placas de rede (NIC), uma interna, e outra externa.
+Para os hosts (CLIENTs) foram designadas suas respectivas VMs, simulando um laptop corporativo com Windows 10 Pro e apenas uma rede interna configurada.
 
 ### Header 3
 
