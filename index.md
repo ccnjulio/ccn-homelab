@@ -22,6 +22,8 @@ O objetivo principal foi configurar os clientes para receberem automaticamente o
 Para estabelecer um servidor Active Directory (AD), foi instalado Windows Server 2019 em uma das VMs, e configurado duas placas de rede (NIC), uma interna, e outra externa.
 Para os hosts (CLIENTs) foram designadas suas respectivas VMs, simulando um laptop corporativo com Windows 10 Pro e apenas uma rede interna configurada.
 
+![Branching](VMs.PNG)
+
 ### Header 3
 
 ```js
