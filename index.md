@@ -40,6 +40,8 @@ Os dispositivos cliente (CLIENTs) foram representados por VMs configuradas com W
 
 #### Configurando DNS
 
+Para a configuração do DNS, foi utilizado o IP de loopback como referência, permitindo que o próprio domínio atuasse como servidor DNS para os hosts conectados. Essa abordagem garante que as solicitações de resolução de nomes dentro da rede interna sejam direcionadas corretamente, sem depender de servidores externos. Dessa forma, os dispositivos clientes podem localizar e se comunicar com recursos dentro do ambiente virtualizado de maneira eficiente.
+
 ![Branching](dns config.PNG)
 
 ##### Header 5
