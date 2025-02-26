@@ -57,3 +57,9 @@ Para a configuração do serviço DHCP (Dynamic Host Configuration Protocol), fo
 ![Branching](dhcp config.PNG)
 
 ## Configurando Routing
+
+A instalação e configuração do serviço Routing and Remote Access (RRAS) foram realizadas para permitir que os hosts da rede interna tenham acesso à internet. Esse serviço atua como um roteador, encaminhando o tráfego entre diferentes interfaces de rede dentro do ambiente virtualizado.
+
+Conforme descrito anteriormente, os dispositivos clientes utilizam o gateway 172.16.0.1, que corresponde ao servidor Active Directory (AD). Esse servidor, por sua vez, encaminha o tráfego externo por meio de sua segunda interface de rede (NIC externa: 10.0.2.15), garantindo a comunicação entre a rede interna e a internet
+
+![Branching](routingconfig.PNG)
