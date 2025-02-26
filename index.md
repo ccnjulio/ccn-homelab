@@ -68,7 +68,9 @@ Conforme descrito anteriormente, os dispositivos clientes utilizam o gateway 172
 
 > Vale destacar que o código não é meu!
 
-A partir da criação de usuários, é possível então, começar a testar ambientes dentro do domínio simulando conexão de endpoints como laptops corporativos (CLIENTs). Para isso, foi utilizado um script no PowerShell, onde ele busca em uma lista de nomes (falsos) em um arquivo .txt (imagem).
+- Após a criação dos usuários no Active Directory, tornou-se possível testar diferentes cenários dentro do domínio, simulando a conexão de endpoints, como laptops corporativos (CLIENTs). Essa abordagem permite validar a autenticação, políticas de grupo e outras configurações típicas de um ambiente empresarial.
+
+- Para automatizar o processo de criação de usuários, foi utilizado um script em PowerShell, que lê uma lista de nomes fictícios armazenados em um arquivo .txt (conforme ilustrado na imagem). O script gera os usuários no AD a partir da combinação de nome e sobrenome, atribuindo automaticamente uma senha, informações pessoais e permissões padrão.
 
 ![Branching](userscreated.PNG)
 
