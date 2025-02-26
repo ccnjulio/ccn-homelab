@@ -27,14 +27,20 @@ Os dispositivos cliente (CLIENTs) foram representados por VMs configuradas com W
 
 ### Instalando AD, DNS, DHCP e Routing
 
+- A partir do contato com o servidor, foram instalados as seguintes ferramentas:
+  - AD
+  - DNS
+  - DHCP
+  - Routing
+- O passo a passo é simples
+  - Add roles and features
+  - Select server roles
+  - E espere para reiniciar o PC conforme for solicitado.
 
 
+#### Configurando DNS
 
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+![Branching](dns config.PNG)
 
 ##### Header 5
 
