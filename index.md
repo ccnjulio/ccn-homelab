@@ -2,9 +2,11 @@
 layout: default
 ---
 
+Antes de tudo, você pode acessar meu [LinkedIn!](https://www.linkedin.com/in/julio-nunes-b97331205/).
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Você pode acessar meu LinkedIn!](https://www.linkedin.com/in/julio-nunes-b97331205/).
+
 
 There should be whitespace between paragraphs.
 
