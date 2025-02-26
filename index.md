@@ -2,15 +2,9 @@
 layout: default
 ---
 
-Antes de tudo, você pode acessar meu [LinkedIn!](https://www.linkedin.com/in/julio-nunes-b97331205/).
+Este portfólio foi criado para documentar experiências hands-on. Com base nos conhecimentos adquiridos durante os estudos para as certificações CompTIA A+ e CompTIA Security+, desenvolvi um Home Lab para este projeto, que será detalhado ao longo desta página. Outros projetos estão em planejamento e serão adicionados futuramente.
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Podes também me acompanhar no [LinkedIn!](https://www.linkedin.com/in/julio-nunes-b97331205/).
 
 # Header 1
 
