@@ -53,6 +53,8 @@ Para a configuração do serviço DHCP (Dynamic Host Configuration Protocol), fo
   - Servidor DNS: Configurado para direcionar as consultas de resolução de nomes dos clientes para o servidor DNS previamente estabelecido na infraestrutura.
   - Gateway 172.16.0.1: Definido para garantir que os dispositivos clientes saibam qual IP utilizar como ponto de saída para a comunicação com redes externas.
   - Lease Duration: Configurado para determinar o período pelo qual um endereço IP atribuído permanecerá reservado para um dispositivo antes de precisar ser renovado, no caso, 8 dias.
+ 
+> Para melhor resolução da imagem, abra em uma nova aba.
 
 ![Branching](dhcp config.PNG)
 
