@@ -6,9 +6,11 @@ Este portfólio foi criado para documentar experiências hands-on. Com base nos 
 
 Podes também me acompanhar no [LinkedIn!](https://www.linkedin.com/in/julio-nunes-b97331205/).
 
-# Header 1
+# Infraestrutura
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
 ## Header 2
 
