@@ -8,7 +8,11 @@ Podes também me acompanhar no [LinkedIn!](https://www.linkedin.com/in/julio-nun
 
 # Infraestrutura
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+O projeto consiste em ter um infraestrutura simples, que simula um ambiente AD em uma organização, onde hosts se conectam em um servidor centralizado e partir disto, conectam-se a internet.
+A ideia era fazer com os CLIENTs automaticamente recebessem configurações de rede através do DHCP, e fazer com que o AD agisse como um servidor DNS também.
+
+A segurança não é uma prioridade para este projeto, pois se trata de um Home Lab, e nenhuma das informações utilizadas são reais.
+(O ideal seria não deixar o AD exposto à internet, mas sim, dedicar um firewall e outras ferramentas de segurança)
 
 ![Branching](Infraestrutura.png)
 
