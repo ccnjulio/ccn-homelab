@@ -63,3 +63,13 @@ A instalação e configuração do serviço Routing and Remote Access (RRAS) for
 Conforme descrito anteriormente, os dispositivos clientes utilizam o gateway 172.16.0.1, que corresponde ao servidor Active Directory (AD). Esse servidor, por sua vez, encaminha o tráfego externo por meio de sua segunda interface de rede (NIC externa: 10.0.2.15), garantindo a comunicação entre a rede interna e a internet
 
 ![Branching](routingconfig.PNG)
+
+## Criando usuários através do PowerShell
+
+> Vale destacar que o código não é meu!
+
+A partir da criação de usuários, é possível então, começar a testar ambientes dentro do domínio simulando conexão de endpoints como laptops corporativos (CLIENTs). Para isso, foi utilizado um script no PowerShell, onde ele busca em uma lista de nomes (falsos) em um arquivo .txt (imagem).
+
+![Branching](userscreated.PNG)
+
+
