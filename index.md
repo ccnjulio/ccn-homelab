@@ -10,7 +10,7 @@ Podes também me acompanhar no [LinkedIn!](https://www.linkedin.com/in/julio-nun
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-![Branching](https://github.com/ccnjulio/ccnjulio.github.io/blob/main/Infraestrutura.png)
+![Branching](Infraestrutura.png)
 
 ## Header 2
 
