@@ -44,11 +44,17 @@ Para a configuração do DNS, foi utilizado o IP de loopback como referência, p
 
 ![Branching](dns config.PNG)
 
-## Header 5
+## Configurando DHCP
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+Para a configuração do serviço DHCP (Dynamic Host Configuration Protocol), foi definido um escopo (Scope) dentro da faixa de endereçamento 172.16.0.100/24 a 172.16.0.200/24, garantindo a distribuição automática de endereços IP para os dispositivos clientes dentro da rede.
+
+Além da atribuição de endereços IP, foram configurados parâmetros adicionais essenciais para o funcionamento adequado da rede, incluindo:
+
+Servidor DNS: Configurado para direcionar as consultas de resolução de nomes dos clientes para o servidor DNS previamente estabelecido na infraestrutura.
+Gateway Padrão: Definido para garantir que os dispositivos clientes saibam qual IP utilizar como ponto de saída para a comunicação com redes externas.
+Lease Duration: Configurado para determinar o período pelo qual um endereço IP atribuído permanecerá reservado para um dispositivo antes de precisar ser renovado.
+
+![Branching](dhcp config.PNG)
 
 ###### Header 6
 
