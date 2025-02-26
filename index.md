@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Este portfólio foi criado para documentar experiências hands-on. Com base nos conhecimentos adquiridos durante os estudos para as certificações CompTIA A+ e CompTIA Security+, desenvolvi um Home Lab para este projeto, que será detalhado ao longo desta página. Outros projetos estão em planejamento e serão adicionados futuramente.
+  Este portfólio foi criado para documentar experiências hands-on. Com base nos conhecimentos adquiridos durante os estudos para as certificações CompTIA A+ e CompTIA Security+, desenvolvi um Home Lab para este projeto, que será detalhado ao longo desta página. Outros projetos estão em planejamento e serão adicionados futuramente.
 
 Podes também me acompanhar no [LinkedIn!](https://www.linkedin.com/in/julio-nunes-b97331205/).
 
@@ -10,7 +10,7 @@ Podes também me acompanhar no [LinkedIn!](https://www.linkedin.com/in/julio-nun
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+![Branching](https://github.com/ccnjulio/ccnjulio.github.io/blob/main/Infraestrutura.png)
 
 ## Header 2
 
