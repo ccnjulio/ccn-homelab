@@ -4,7 +4,7 @@ layout: default
 
   Este projeto foi criado para documentar experiências hands-on. Com base nos conhecimentos adquiridos durante os estudos para as certificações CompTIA A+ e CompTIA Security+, desenvolvi um Home Lab para este projeto, que será detalhado ao longo desta página. Outros projetos estão em planejamento e serão adicionados futuramente. Me acompanhe no [LinkedIn!](https://www.linkedin.com/in/julio-nunes-b97331205/).
 
->  Como se trata de um Home Lab, a segurança não foi a prioridade neste projeto, e nenhuma das informações sensíveis utilizadas são reais. Em um ambiente de produção, o ideal seria evitar a exposição direta do AD à internet,  implementando um firewall e outras camadas de segurança para proteção da infraestrutura.
+>  Este projeto foi desenvolvido em um ambiente de Home Lab, onde a segurança não foi a prioridade principal, e todas as informações sensíveis utilizadas são fictícias. Em um ambiente de produção, a exposição direta do Active Directory à internet deve ser evitada. Para garantir a integridade, confidencialidade e disponibilidade (CIA) do ambiente, seria essencial a implementação de camadas de segurança, incluindo firewall, redes segmentadas, autenticação multifator (MFA), controle de acesso baseado no princípio do menor privilégio (Least Privilege) e uma abordagem Zero Trust. Além disso, o uso de VPNs para acesso remoto seguro e a aplicação de hardening nos servidores ajudariam a reduzir a superfície de ataque e mitigar riscos.
 
 ## Infraestrutura
 
@@ -19,7 +19,7 @@ O objetivo principal foi configurar os clientes para receberem automaticamente o
 
 Para a implementação do servidor Active Directory (AD), foi utilizado o Windows Server 2019 em uma máquina virtual (VM). A configuração incluiu duas placas de rede (NICs): uma para comunicação interna e outra para acesso externo.
 
-Os dispositivos cliente (CLIENTs) foram representados por VMs configuradas com Windows 10 Pro, simulando um ambiente corporativo. Cada cliente foi conectado exclusivamente à rede interna, garantindo a comunicação adequada com o servidor AD.
+Os dispositivos clientes (CLIENTs) foram representados por VMs configuradas com Windows 10 Pro, simulando um ambiente corporativo. Cada cliente foi conectado exclusivamente à rede interna, garantindo a comunicação adequada com o servidor AD.
 
 ![Branching](VMs.PNG)
 
@@ -68,7 +68,7 @@ Conforme descrito anteriormente, os dispositivos clientes utilizam o gateway 172
 
 > Vale destacar que o código não é meu!
 
-- Após a criação dos usuários no Active Directory, tornou-se possível testar diferentes cenários dentro do domínio, simulando a conexão de endpoints, como laptops corporativos (CLIENTs). Essa abordagem permite validar a autenticação, políticas de grupo e outras configurações típicas de um ambiente empresarial.
+- Após a criação dos usuários no Active Directory, tornou-se possível testar diferentes cenários dentro do domínio, simulando a conexão de endpoints, como laptops corporativos (CLIENTs). Essa abordagem permite validar a autenticação, GPO (Group Policy Object) e outras configurações típicas de um ambiente empresarial.
 
 - Para automatizar o processo de criação de usuários, foi utilizado um script em PowerShell, que lê uma lista de nomes fictícios armazenados em um arquivo .txt (conforme ilustrado na imagem). O script gera os usuários no AD a partir da combinação de nome e sobrenome, atribuindo automaticamente uma senha, informações pessoais e permissões padrão.
 
